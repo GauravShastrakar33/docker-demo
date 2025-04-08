@@ -4,13 +4,13 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-@RequestMapping("/dockerTest")
+@RequestMapping("/JenkinTest")
 @RestController
 public class ProductController {
 
     @GetMapping
     public String getHello(){
-        return "Hello from docker-demo";
+        return "Hello from Jenkin-demo";
     }
 
 
