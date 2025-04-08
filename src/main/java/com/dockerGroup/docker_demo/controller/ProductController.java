@@ -10,7 +10,7 @@ public class ProductController {
 
     @GetMapping
     public String getHello(){
-        return "Hello from Jenkin-demo";
+        return "Hello from Jenkin-demo-successfully done. I am happy";
     }
 
 
